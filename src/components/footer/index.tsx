@@ -3,7 +3,7 @@ import { FooterContainer } from './style'
 export function Footer() {
   return (
     <FooterContainer>
-      <h1>Footer</h1>
+      <p>Copyright © 2024 - Todos os direitos reservados.</p>
     </FooterContainer>
   )
 }

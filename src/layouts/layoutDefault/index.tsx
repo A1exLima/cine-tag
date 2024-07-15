@@ -3,12 +3,12 @@ import { LayoutContainer } from './style'
 import { Outlet } from 'react-router-dom'
 
 import { Footer } from '../../components/footer'
-import { Side } from '../../components/sideBar'
+import { Header } from '../../components/header'
 
 export function LayoutDefault() {
   return (
     <LayoutContainer>
-      <Side />
+      <Header />
       <Outlet />
       <Footer />
     </LayoutContainer>
